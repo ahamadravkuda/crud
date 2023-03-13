@@ -212,6 +212,7 @@ function edit(index) {
 function update(index) {
     let newName = document.getElementById('newName');
     let newEmail = document.getElementById('newEmail');
+    let newNumberl = document.getElementById('newNumber');
     let newDate = document.getElementById('newDate');
     let newTime = document.getElementById('newTime');
     let newAge = document.getElementById('newAge');
@@ -226,6 +227,7 @@ function update(index) {
     details[index] = {
         name: newName.value,
         email: newEmail.value,
+        number:newNumber.value,
         date:newDate.value,
         time:newTime.value,
         age:newAge.value,
